@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background: #708090;
+    color: #373842;
+    font-size: 3em;
+    text-transform: lowercase;
+    /* tudo em letra minuscula */
+
+    text-transform: uppercase; 
+    /* deixa tudo maiusculo */
+
+    text-transform: capitalize;
+    /* deixa a primeira letra em maiusculo */
+
+    font-family: Arial, Helvetica, sans-serif, ;
+    /* fonte da letras */
+
+    font-weight: 500;
+    /* modifica a grossura da letra */
+
+    font-style: italic;
+    /* de certa forma, ele redesenha a letra pra ser d certo inclinada, e havera difernça mais em outras letras mais a frente */
+
+    font-style: oblique;
+    /* pega a letra e inclina mas ela havera uma diferença dependendo a fonte da letra, e para ver isso basta usar uma fonte no qual apresente essa diferença e -obliquo- e -italico- */
+
+    margin: 50px;
+    /* deixa um espaço na palavra em cima, em baixo, na esquerda e na direita da palavra*/
+
+    margin-top: ;
+    /* modifica a margem de cima */
+
+    margin-bottom: ;
+    /* modifica a margem de baixo */
+
+    margin-left: ;
+    /* modifica a margem da esquerda */
+
+    margin-right: ;
+    /* modifica a margem da direita */
+
+    padding: 5px;
+    /* margem de dentro do conteudo */
+
+    text-align: center;
+    /* centraliza o texto pro centro */
+
+    letter-spacing: 10px;
+    /* deixa as letras mais - S E P A R A D A - uma da outra */
+
+    text-shadow: 5px 5px 8px rgb(0, 0, 0); 
+    /* "5px" orienta minha sombra horizontalmente, "5px" orienta verticalmente, "5px" modifica o efeito embaçado da sombra e o ultimo valor/informação é a cor e pra mescla na tentativa e criar algo criativo mesclando uma segunda cor com a primeira, tera de adicionar os 4 elementos novamente
+    1- px horizontal
+    2- px vertical
+    3- px embaçado da sombra
+    4- codigo da cor */
+
+    /* OBS: A CADA MEDIDA DA MARGEM NO FINAL DO VALOR 00 DEVE ADICIONAR UM PX EXEMPLO: 00"px" = 00px */
+
+
+}
+
+main p{
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+
+    line-height: 3em;
+    /* modifica a altura de uma linha pra outro */
+
+    text-indent: 10em;
+    /* modifica o espaçamento de uma palavra pra outra */
+
+    text-align: justify;
+
+        font-size: 12px;
+}
+
